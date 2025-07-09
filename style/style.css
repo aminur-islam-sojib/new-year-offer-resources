@@ -7,7 +7,7 @@
 
 /* Typography and shared value */
 .merriweather-merriweather {
-  font-family: "Merriweather", serif;
+    font-family: "Merriweather", serif;
 }
 .inter-typography {
     font-family: "Inter", sans-serif;
@@ -16,6 +16,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.description{
+    color: #070211;
+    opacity: 60%;
 }
 
 /* header  */
@@ -176,10 +180,6 @@ header{
 .upcoming-offer h1 {
     margin: 24px 0px ;
 }
-.upcoming-offer p {
-    color: #070211;
-    opacity: 60%;
-}
 .circle {
     height: 450px;
     width: 450px;
@@ -193,3 +193,55 @@ header{
     margin-top: 40px;
 }
 /* New Offer Closed  */
+
+/* Holiday  */
+.holiday-section {
+    flex-direction: column;
+}
+.holiday {
+    overflow: hidden;
+    width: 90%;
+}
+.holiday-sale {
+    flex-direction: column;
+    margin-top: 120px;
+    padding: 0 140px;
+}
+.holiday-sale h4 {
+    font-size: 24px;
+    font-weight: 600;
+}
+.holiday-sale h1  {
+    font-size: 72px;
+    font-weight: 800;
+    margin: 16px 0 28px;
+}
+.holiday-sale p {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+.holiday-image {
+    position: relative;
+}
+.holiday-image img{
+    width: 100%;
+    border-radius: 0 10px 0 0;
+    margin-top: 100px;
+}
+.holiday-icon {
+    display: flex;
+    height: 300px;
+}
+.holiday .img-1 {
+    width: 650px;
+    height: auto;
+    position: absolute;
+    top: -50px;
+}
+.holiday .img-2 {
+    width: 200px;
+    height: auto;
+    position: absolute;
+    right: 0;
+}
