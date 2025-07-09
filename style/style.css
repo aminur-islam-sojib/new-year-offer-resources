@@ -278,3 +278,54 @@ header{
     width: 320px;
     height: auto;
 }
+/* showcase closed  */
+
+/* Newsletter  */
+.newletter {
+    padding:0 140px;
+    flex-direction: column;
+    margin-top: 130px;
+}
+.newletter img {
+    height: auto;
+    width: 150px;
+    margin: 70px 0 48px 0;
+}
+.newletter h1 {
+    font-size: 48px;
+    font-weight: 800;
+}
+.newletter p {
+    margin: 22px 0 48px;
+    text-align: center;
+}
+.newlatter-input {
+    margin-bottom: 80px;
+}
+.newlatter-input input[type="email"] {
+    height: 72px;
+    width: 600px;
+    border-radius: 50px 0 0 50px;
+    padding-left: 20px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background-color: #e5e2e2;
+}
+.newlatter-input input[type="submit"] {
+    height: 72px;
+    width: 200px;
+    border-radius: 0 50px 50px 0;
+    border: none;
+    outline: none;
+    background-color: #FF0000;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+input[type="submit"]:hover {
+    background-color: #070211;
+    scale: 1.05;
+}
