@@ -245,3 +245,36 @@ header{
     position: absolute;
     right: 0;
 }
+/* Holiday Closed  */
+
+/* Showcase  */
+.showcase{
+    padding:0 140px;
+}
+.showcase-txt {
+    flex-direction: column;
+}
+.showcase-txt h4 {
+    margin: 110px 0 16px;
+    font-size: 24px;
+    font-weight: 600;
+}
+.showcase-txt h1 {
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 22px;
+}
+.showcase-txt p {
+    font-size: 20px;
+    text-align: center;
+}
+.showcase-images {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 48px;
+    gap: 24px;
+}
+.showcase-image img{
+    width: 320px;
+    height: auto;
+}
