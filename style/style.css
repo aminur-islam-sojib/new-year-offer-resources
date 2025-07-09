@@ -38,7 +38,6 @@ header{
     border-radius: 20px
 }
 .banner-content{
-    background-image: ;
     height: 100%;
     width: 80%;
     display: flex;
@@ -127,4 +126,38 @@ header{
     border: none;
     color: white;
     cursor: pointer;
+}
+/* Welcome section Closed  */
+
+/* Booking  */
+.booking-txt {
+    margin-top: 120px;
+    padding: 100px 380px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.booking-txt h4 {
+    font-size: 30px;
+    margin-bottom: 32px;
+}
+.booking-span {
+    color: #FF0000;
+}
+.booking-txt button{
+    background-color: #FF0000;
+    border: none;
+    padding: 20px;
+    border-radius: 8px;
+    color: white;
+    font-weight: 800;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.booking-txt button:hover {
+    background-color: transparent;
+    border: 1px solid #FF0000;
+    color: #FF0000;
 }
