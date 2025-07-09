@@ -50,3 +50,33 @@
 }
 /* header Closed */
 
+/* off section  */
+.off-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.off-text {
+    margin: 0 auto;
+    text-align: center;
+}
+.off-text h1 {
+    color: #FF0000;
+    font-weight: 800;
+    font-size: 72px;
+    margin: 120px 0 48px;
+}
+.off-text h3 {
+    color: red;
+    font-weight: 600;
+    font-size: 24px;
+}
+.off-text h2 {
+    font-weight: 800;
+    font-size: 48px;
+    margin: 16px 0 48px;
+}
+.off-section img {
+    width: 500px;
+    height: auto;
+}
