@@ -161,3 +161,35 @@ header{
     border: 1px solid #FF0000;
     color: #FF0000;
 }
+/* Booking Section Closed  */
+
+/* New Offer  */
+.upcoming-offer {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 0 140px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    margin-top: 80px;
+}
+.upcoming-offer h1 {
+    margin: 24px 0px ;
+}
+.upcoming-offer p {
+    color: #070211;
+    opacity: 60%;
+}
+.circle {
+    height: 450px;
+    width: 450px;
+    color: transparent;
+    border: 10px solid #FF0000;
+    border-radius: 50%;
+}
+.upcoming-txt img {
+    width: 140px;
+    height: auto;
+    margin-top: 40px;
+}
+/* New Offer Closed  */
