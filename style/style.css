@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* border: 1px solid black; */
+    /* border: 1px solid rgb(255, 255, 255); */
 }
 
 /* Typography and shared value */
@@ -329,3 +329,6 @@ input[type="submit"]:hover {
     background-color: #070211;
     scale: 1.05;
 }
+/* Newsletter Closed  */
+
+/* Footer  */
